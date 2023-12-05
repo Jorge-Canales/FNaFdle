@@ -1,7 +1,7 @@
-import Box from "./box";
+import RowCompleted from "./rowCompleted";
 
 export default function Fnafdle(){
     return <div>
-        <Box value="a" status="present" />
+        <RowCompleted word="sabio" solution="break"/>
     </div>;
 }

@@ -1,9 +1,8 @@
 import Fnafdle from "./components/fnafdle";
+import "./App.css";
 
 function App() {
-  return (
-    <Fnafdle/>
-  );
+  return <Fnafdle/>;
 }
 
 export default App;
